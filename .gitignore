@@ -1,3 +1,4 @@
-node_modules/
-dist/
-.vscode/
+node_modules
+dist
+.tailwindcss
+.DS_Store

@@ -7,13 +7,33 @@
     <title>learn</title>
     <link href="./dist/output.css" rel="stylesheet" />
   </head>
-  <body class="bg-black">
-    <div class="bg-white">
-      <p class="text-[rgba(35,35,35,0.5)]">Hello world</p>
-    </div>
-    <div class="bg-green-600 m-2">
-      <p class="p-4 text-white">sup</p>
-      <p class="px-3 text-pink-400 pb-4" >lol</p>
+  <body>
+    <div class="bg-teal-100 min-h-screen flex flex-col">
+      <div
+        class="bg-teal-500 px-6 py-4 text-teal-100 flex justify-between mb-8"
+      >
+        <h1 class="text-lg font-extrabold tracking-normal">My website</h1>
+        <nav class="flex gap-4">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </div>
+      <div class="space-y-8 grow ">
+        <section class="text-center">
+          <h2 class="text-4xl font-semibold mb-4 lg:text-green-400 md:text-blue-400 sm:text-yellow-400 sm:text-xl">Welcome</h2>
+          <p>This is the main content area of the website.</p>
+        </section>
+        <section >
+          <h2 class="text-xl font-semibold mb-4 text-center">Features</h2>
+          <div class="grid grid-cols-1 px-6 gap-6 sm:grid-cols-2 md:grid-cols-3 ">
+            <div class="bg-teal-400 p-4 rounded-md hover:bg-teal-400/80 hover:text-teal-100 hover:shadow-lg hover:shadow-teal-300/60">feature 1</div>
+            <div class="bg-teal-400 p-4 rounded-md hover:bg-teal-400/80 hover:text-teal-100 hover:shadow-lg hover:shadow-teal-300/60" >feature 2</div>
+            <div class="bg-teal-400 p-4 rounded-md hover:bg-teal-400/80 hover:text-teal-100 hover:shadow-lg hover:shadow-teal-300/60">feature 3</div>
+          </div>
+        </section>
+      </div>
+      <div class="bg-teal-500 text-center text-sm py-6 text-teal-100 mt-4">&copy; 2025 my website. All rights reserved. </div>
     </div>
   </body>
 </html>

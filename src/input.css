@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* This line enables the manual dark mode strategy */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-background:white;
+    --color-primary:rgb(15,23,41)
+}
+
+.dark {
+    --color-background:rgb(15,23,41);
+    --color-primary:white;
+}
