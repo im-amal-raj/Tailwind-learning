@@ -6,6 +6,7 @@
 @theme {
     --color-background:white;
     --color-primary:rgb(15,23,41)
+    --color-brightRed: hsl(12, 88%, 59%);
 }
 
 .dark {
