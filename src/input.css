@@ -13,3 +13,8 @@
     --color-background:rgb(15,23,41);
     --color-primary:white;
 }
+
+@utility link {
+    @apply text-gray-100;
+    @apply hover:text-[rgb(125,67,240)];
+}

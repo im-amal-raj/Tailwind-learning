@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[rgb(15,23,41)]">
+    <nav
+      class="bg-[rgb(15,23,41)]/30 shadow-md shadow-gray-500 px-6 py-4 text-gray-50"
+    >
+      <div class="max-w-7xl mc-auto flex justify-between items-center">
+        <!-- Desktop menu -->
+        <div class="text-2xl font-bold text-[rgb(125,67,240)]">Brand</div>
+
+        <ul class=" hidden md:flex gap-6 text-gray-100 font-medium">
+          <li><a href="#" class="link" >Home</a></li>
+          <li><a href="#" class="link">About</a></li>
+          <li><a href="#" class="link">Services</a></li>
+          <li><a href="#" class="link">Contact</a></li>
+        </ul>
+
+        <!-- Mobile menu icon-->
+        <div class="md:hidden ">
+            <button id="menu-btn" class="text-3xl">&#9776;</button>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+       <div id="mobile-menu" class="md:hidden hidden px-4 mt-2">
+        <ul class="flex flex-col gap-6 text-gray-100 font-medium">
+          <li><a href="#" class="link" >Home</a></li>
+          <li><a href="#" class="link">About</a></li>
+          <li><a href="#" class="link">Services</a></li>
+          <li><a href="#" class="link">Contact</a></li>
+        </ul>
+       </div>
+    </nav>
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+  </body>
+</html>
