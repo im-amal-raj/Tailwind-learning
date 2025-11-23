@@ -18,3 +18,16 @@
     @apply text-gray-100;
     @apply hover:text-[rgb(125,67,240)];
 }
+
+@utility card {
+    @apply bg-[rgb(125,67,240)]/35 text-gray-100 shadow-md p-4 m-6 rounded-lg w-64 shadow-amber-50/30;
+
+}
+
+@utility img {
+    @apply rounded-lg shadow-md;
+}
+
+@utility input{
+    @apply border border-[rgb(125,67,240)]/45 rounded-md px-4 py-2 my-3 focus:ring-2 focus:ring-[rgb(125,67,240)] focus:outline-none ;
+}
