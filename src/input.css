@@ -15,7 +15,7 @@
 }
 
 @utility link {
-    @apply text-gray-100;
+    @apply text-gray-100 font-semibold;
     @apply hover:text-[rgb(125,67,240)];
 }
 

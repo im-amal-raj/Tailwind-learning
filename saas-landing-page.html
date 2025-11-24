@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saas landing page</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-[rgb(16,24,41)] text-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-[rgb(16,24,41)]/10 px-6 py-4 flex justify-between sticky top-0 z-50">
+        <h1 class="font-bold text-2xl text-[rgb(125,67,240)]">Saasly</h1>
+        <ul class="hidden md:flex space-x-6">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#Feature" class="link">Features</a></li>
+            <li><a href="#Pricing" class="link">Pricing</a></li>
+            <li><a href="#Contact" class="link">Contact</a></li>
+        </ul>
+        <button class="md:hidden text-2xl text-white"><img src="/img/menu.svg" alt="menu-icon" class="bg-white"></button>
+    </nav>
+    <!-- Hero section -->
+     <section class="bg- py-12 px-6 flex flex-col-reverse md:flex-row items-center justify-center gap-8">
+        <div class="md:w-1/2 space-y-4 text-center md:text-left">
+            <h2 class="text-4xl font-bold ">Build your Saas website faster</h2>
+            <p class="text-gray-400">Tailwind css lets you build modern,reposonsive designs without writing custom CSS.</p>
+            <button class="bg-[rgb(125,67,240)] rounded-md shadow-sm px-4 py-2 hover:border border-[rgb(216,205,238)]/45 hover:shadow shadow-gray-400/50 ">Get Started</button>
+        </div>
+        <div class="md:w-1/2">
+            <img src="https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png " alt="saas-img" class="rounded-lg shadow-md ">
+        </div>
+     </section>
+     <!-- Feature section -->
+    <section class="py-12 px-6 backdrop-blur-lg bg-white/5 m-10 rounded-md " id="Feature">
+        <h2 class="text-3xl font-semibold text-center mb-10">Core Features</h2>
+        <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-12 md:col-span-6 lg:col-span-4 p-6 text-center backdrop-blur-sm bg-black/2 rounded-lg shadow-xl border border-gray-700" >
+                <h3 class="text-lg mb-2 font-bold">Fast Perfomance</h3>
+                <p class="text-gray-400 text-sm">Optimized for speed and perfomance.</p>
+            </div>
+
+            <div class="col-span-12 md:col-span-6 lg:col-span-4 p-6 text-center backdrop-blur-sm bg-black/2 rounded-lg shadow-xl border border-gray-700" >
+                <h3 class="text-lg mb-2 font-bold">Responsive Design</h3>
+                <p class="text-gray-400 text-sm">Mobile-First layout for all devices.</p>
+            </div>
+
+            <div class="col-span-12 md:col-span-6 lg:col-span-4 p-6 text-center backdrop-blur-sm bg-black/2 rounded-lg shadow-xl border border-gray-700" >
+                <h3 class="text-lg mb-2 font-bold">Easy customisation</h3>
+                <p class="text-gray-400 text-sm">Style with utilities only.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing -->
+    <section class="py-12 px-6 m-10 backdrop-blur-md bg-black/2 rounded-lg shadow-xl border border-gray-700 ">
+        <h2 class="text-center text-3xl font-bold " id="#pricing">Pricing plans</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-5">
+            <div class="bg-grey-800 p-6 rounded-lg backdrop-blur-md bg-white/5 shadow-xl border border-gray-700 text-center flex flex-col justify-between hover:shadow-indigo-500/15 hover:border-indigo-500/45" id="Pricing">
+                <h3 class="text-xl font-bold mb-2">Basic Plan</h3>
+                <p class="text-gray-400">Basic plan is for the normal usage ideal for hobby projects</p>
+                <div class="text-5xl font-bold">19<span class="text-sm text-gray-500">/month</span></div>
+                <div>
+                <button class="py-3 w-full bg-[rgb(125,67,240)] rounded-lg my-3 shadow-lg hover:bg-[rgb(125,67,240)]/55 hover:border border-amber-50/45">Choose plan</button>
+                <ul class="text-sm space-y-3 flex-col ">
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>1 Project</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Basic support</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Normal limit</span></li>
+                </ul>
+            </div>
+            </div>
+            <div class="bg-grey-800 p-6 rounded-lg backdrop-blur-md bg-white/5 shadow-xl border border-gray-700 text-center flex flex-col justify-between hover:shadow-indigo-500/15 hover:border-indigo-500/45">
+                <h3 class="text-xl font-bold mb-2">Pro Plan</h3>
+                <p class="text-gray-400">Pro plan is for the developers or students who want speed and support</p>
+                <div class="text-5xl font-bold">49<span class="text-sm text-gray-500">/month</span></div>
+                <div>
+                <button class="py-3 w-full bg-[rgb(125,67,240)] rounded-lg my-3 shadow-lg hover:bg-[rgb(125,67,240)]/55 hover:border border-amber-50/45">Choose plan</button>
+                <ul class="text-sm space-y-3 flex-col ">
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>10 Projects</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Dedicated support</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Everything in Basic</span></li>
+                </ul>
+            </div>
+            </div>
+            <div class="bg-grey-800 p-6 rounded-lg backdrop-blur-md bg-white/5 shadow-xl border border-gray-700 text-center flex flex-col justify-between hover:shadow-indigo-500/15 hover:border-indigo-500/45">
+                <h3 class="text-xl font-bold mb-2">Enterprise Plan</h3>
+                <p class="text-gray-400">Ideal for developers and startups who want power and performance</p>
+                <div class="text-5xl font-bold">99<span class="text-sm text-gray-500">/month</span></div>
+                <div>
+                <button class="py-3 w-full bg-[rgb(125,67,240)] rounded-lg my-3 shadow-lg hover:bg-[rgb(125,67,240)]/55 hover:border border-amber-50/45">Choose plan</button>
+                <ul class="text-sm space-y-3 flex-col ">
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Unlimited Projects</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>24/7 support</span></li>
+                    <li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-icon lucide-check"><path d="M20 6 9 17l-5-5" class="size-5 md:size-6 lg:size-6 stroke-indigo-500/80"/></svg> <span>Early access to new features</span></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact form -->
+    <section class="py-12 px-6 " id="Contact">
+        <form action="" class="backdrop-blur-lg bg-white/5 rounded-lg shadow-lg w-full max-w-2xl mx-auto text-gray-100 p-8 border border-gray-700 ">
+        <h1 class="font-bold text-2xl text-center">Contact Us</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="First Name" class="input">
+            <input type="text" placeholder="Last Name" class="input">
+        </div>
+        <div>
+            <input type="email" placeholder="example@gmail.com" class="input w-full ">
+        </div>
+        <textarea rows="5" placeholder="Enter your message" class="input w-full"></textarea>
+        <label class="inline-flex items-center space-x-2">
+            <input type="checkbox" class="form-checkbox text-gray-100 w-5 h-5 ">
+            <span class="text-gray-400">I agree to the terms and conditions</span>
+        </label>
+        <button type="submit" class="w-full bg-[rgb(125,67,240)] rounded-md my-3 p-2 shadow-md font-semibold hover:border border-gray-300/35 hover:shadow-gray-400/10">Submit</button>
+    </form>
+    </section>
+    <!-- Footer -->
+    <footer class=" p-6 mt-12 border-t border-gray-500 m-8" id="Footer">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
+            <div>
+                <h3 class="font-bold text-xl mb-2">Saasly</h3>
+                <p >© All rights reserved</p>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-2">Links</h4>
+                <ul class="space-y-1">
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#Pricing" class="link">Pricing</a></li>
+                    <li><a href="#Feature" class="link">Feature</a></li>
+                    <li><a href="#Contact" class="link">Contact</a></li>
+
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold mb-2 md:text-left ">Follow us</h4>
+                <ul class="flex justify-center md:justify-start space-x-4">
+                    <li><a href="#Footer" ><img src="/img/icon-twitter.svg" alt="twitter"></a></li>
+                    <li><a href="#Footer"><img src="/img/icon-instagram.svg" alt="instagram"></a></li>
+                    <li><a href="#Footer"><img src="/img/icon-facebook.svg" alt="facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
